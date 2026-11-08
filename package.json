@@ -1,0 +1,22 @@
+{
+  "name": "linkdrop",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The operating system for your social life. Fast, frictionless event and group planning with instant expense splitting, itineraries, and real-time Firebase sync.",
+  "scripts": {
+    "dev": "vite preview --port 3000",
+    "preview": "vite preview --port 3000",
+    "serve": "npx serve dist",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "firebase": "^10.7.1",
+    "lucide-react": "^0.300.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
